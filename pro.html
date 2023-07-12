@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  bgcolor: green;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  color: "white";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border: 4px solid #4CAF50;
+  border-radius: 5px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #4CAF50;
+  height: 100px;
+  border: 1px solid black;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 13px;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.description{
+  margin: auto;
+  text-align: left;
+  font-family: arial;
+  color: black;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #F6CC2E;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+    
+	<h1 style="color:white;font-size:50px;font-family:arial" >All Products</h1>
+    <a href="index.html">WefoundingFarmers</a>
+            
+</div>
+<br><br>
+
+<img src="images/sale.png" alt="growth booster" style="width:100%">
+<br><br><br><br>
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/corn.png" alt="corn" style="width:100%">
+	  <h1>Corn Seeds</h1>
+	  <p class="price"><strong>Rs. 900</strong></p>
+	  <div class="description">
+	  <ul>
+		<li>Golden yellow colour </li>
+		<li>15-18 rows per cob</li>
+		<li>Two three cobs per plant</li>
+		<li>Pack of 500  </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+  
+<div class="column">
+	<div class="card">
+ 	<img src="images/bringal.png" alt="bringal" style="width:100%">
+	  <h1>Bringal Seeds</h1>
+	  <p class="price"><strong>Rs. 330</strong></p>
+	  <div class="description">
+	  <ul>
+		<li>Non spiny, green striped</li>
+		<li>Fruit is 120-150 gm low seeded</li>
+		<li>Fleshy stalk and calyx </li>
+		<li>Pack of 20 gms </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/chilli.png" alt="chilli" style="width:100%">
+	  <h1>Chilli Seeds</h1>
+	  <p class="price"><strong>Rs. 1,190</strong></p>
+	  <div class="description">
+	  <ul>
+		<li>Plant 90-100 cm </li>
+		<li>Fruits 15-18 cm</li>
+		<li>Cherry red colour</li>
+		<li>Pack of 20 gms </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/cow pea.png" alt="cow pea" style="width:100%">
+	  <h1>Cowpea Seeds</h1>
+	  <p class="price"><strong>Rs. 340</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>old white grains </li>
+		<li>Plant is 45-60 cm tall</li>
+		<li>THigh yielder</li>
+		<li>Pack of 1 kg </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+
+ 
+<div class="column">
+	<div class="card">
+ 	<img src="images/mariegold.png" alt="mariegold" style="width:100%">
+	  <h1>Mariegold Seeds</h1>
+	  <p class="price"><strong>Rs. 650</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Dark orange color </li>
+		<li>Medium size</li>
+		<li>5-7 cm diameter</li>
+		<li>Pack of 10 gms </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+<br><br><br>
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/rose.png" alt="rose" style="width:100%">
+	  <h1>Rose Seeds</h1>
+	  <p class="price"><strong>Rs. 90</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Mix of all colors </li>
+		<li>Double size flowers</li>
+		<li>Good for bedding</li>
+		<li>Pack of 100 </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/chainsaw.png" alt="chainsaw" style="width:100%">
+	  <h1>Chainsaw</h1>
+	  <p class="price"><strong>Rs. 7,499</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>3.2 HP </li>
+		<li>Fuel Powered</li>
+		<li>Weight - 7 kg</li>
+		<li>Speed - 3000 rpm </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/fungicide.png" alt="fungicide" style="width:100%">
+	  <h1>Fungicide</h1>
+	  <p class="price"><strong>Rs. 1,695</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Easy-to-use formulation </li>
+		<li>Flexible application</li>
+		<li>Protection against soil-borne </li>
+		<li>Pack of 1 lit </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/growth booster.png" alt="growth booster" style="width:100%">
+	  <h1>Growth Booster</h1>
+	  <p class="price"><strong>Rs. 499</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Can be used on all crops </li>
+		<li>Improves fruit setting</li>
+		<li>Improves flower setting</li>
+		<li>Pack of 1 kg </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/herbicide.png" alt="herbicide" style="width:100%">
+	  <h1>Herbicide</h1>
+	  <p class="price"><strong>Rs. 795</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Efficacy at Low Dose </li>
+		<li>Safe to Crop</li>
+		<li>Increase Yield</li>
+		<li>Pack of 500 ml </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/lawn mrower.png" alt="lawn mrower" style="width:100%">
+	  <h1>Lawn Mower</h1>
+	  <p class="price"><strong>Rs. 33,500</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>18 inch cutting blade </li>
+		<li>Color - red and black</li>
+		<li>Weight - 41 kg</li>
+		<li>Corede Electric </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/sprayer.png" alt="sprayer" style="width:100%">
+	  <h1>Sprayer</h1>
+	  <p class="price"><strong>Rs. 7,000</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>High quality Plastic </li>
+		<li>Color - white</li>
+		<li>Capacity - 10 lit</li>
+		<li>Light weight </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+ 
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/tarpaulin.png" alt="tarpaulin" style="width:100%">
+	  <h1>Tarpaulin</h1>
+	  <p class="price"><strong>Rs. 700</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Extra thick and strong </li>
+		<li>Waterproof</li>
+		<li>Color - blue</li>
+		<li>Size - 9 x 9 ft </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/urea.png" alt="urea" style="width:100%">
+	  <h1>Urea</h1>
+	  <p class="price"><strong>Rs. 209</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Formulated with care </li>
+		<li>Low cost</li>
+		<li>Neem coated</li>
+		<li>Pack of 1 kg </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/torch.png" alt="torch" style="width:100%">
+	  <h1>Torch</h1>
+	  <p class="price"><strong>Rs. 800</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Battery powered </li>
+		<li>High Durability</li>
+		<li>Color - black and orange</li>
+		<li>30 W output </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/crop booster.png" alt="crop booster" style="width:100%">
+	  <h1>Crop Booster</h1>
+	  <p class="price"><strong>Rs. 300</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>Invreases growth </li>
+		<li>Enrich soil</li>
+		<li>Diease resistance</li>
+		<li>Pack of 500 ml </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+
+
+<div class="column">
+	<div class="card">
+ 	<img src="images/spray1.png" alt="spray" style="width:100%">
+	  <h1>Spray</h1>
+	  <p class="price"><strong>Rs. 250</strong></p>
+ 	  <div class="description">
+	  <ul>
+		<li>High quality plastic  </li>
+		<li>Color - yellow</li>
+		<li>Capacity - 500 ml</li>
+		<li>Multipurpose </li>
+	</ul>
+	</div>
+	<p><button><strong>Buy Now</strong></button></p>
+  	<p><button><strong>Add to Cart</strong></button></p>
+	</div>
+	</div>
+</div>
+
+
+</body>
+</html>

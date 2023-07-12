@@ -1,0 +1,154 @@
+ <html>
+ <head>
+ <style>
+ @import url("css/header.css");
+@import url("css/footer.css");
+
+ .middle{
+  color: green;
+  font-size: 15px;
+}
+
+.lower{
+ background-color: #2AA800;
+ color: white;
+ font-size: 27px;
+}
+
+
+input[type=text], select, textarea {
+  width: 50%; 
+  padding: 12px;  
+  border: 1px solid 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-bottom: 10px; 
+  resize: vertical;
+}
+/* css for about */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #2AA800;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+ </style>
+ </head>
+ <body>
+<!-- body -->
+
+<div class="topnav">
+            
+            <a href="index.html">WefoundingFarmers</a>
+            
+          </div>
+	<!-- about -->
+                   <div class="lower">
+                        <h2>About<br>
+                          <strong class="black"> (Farmers producers company)</strong></h2>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp FPO stands for Farmer Producer Organizations. FPO is an organization, where the members are farmers itself. Farmers Producers Organization provides end-to-end support and services to the small farmers, and cover technical services, marketing, processing, and others aspects of cultivation inputs.</p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp To facilitate the process, the Small Farmers Agribusiness Consortium (SFAC) was mandated by the Department of Agriculture and Cooperation, Ministry of Agriculture, Government of India, to support the State Government in the formation of the Farmer Producer Organizations (FPOs). The goal is to enhance the farmers’ competitiveness and to increase their advantage in emerging the market opportunities. The major operations of Farmers Producer Organization (FPO) include the supply of seed, machinery, market linkages & fertilizer, training, networking, financial and technical advice.  </p>
+                    </div>   
+<!-- Questions -->
+                   <div class="lower">
+                        <h2>Q & A<br>
+                          <strong class="black"> (Farmers producers company)</strong></h2>
+                        <button class="accordion">What is a FPO?</button>
+<div class="panel">
+  <p>A Farmer Producer Organisation, as the name suggests, is an organisation formed by producers like milkmen, farmers, fishers, weavers, and also rural handicraftsmen. The organisation looks after the overall development and revenue aspects of the producers and what lifestyle benefits they can be given.</p>
+</div>
+ <hr width="70%"
+       size="3"
+	  color="black">  
+<button class="accordion">Benefits of Creating a FPO</button>
+<div class="panel">
+  <p>It is the work of the FPO to look for the overall development of the farmers so that they are not cheated at any point. It is also the work of the FPO to check the overall development of the farmer’s concern. They can work under the legalities of the Cooperative Societies Act or the Mutually Aided Cooperative Societies Act. These can be beneficial for the overall betterment of the Indian economy. 
+
+While filling up the details to register as the FPO, the agenda and the working procedures should be maintained very clearly. The FPO looks after any government control over the farmers, how can the revenues be made into a floating part, how can the distribution of revenues happen through several active and useful channels etc. In addition, the FPO’s work is to maintain its stance as a cluster-based business entity that cannot be dissolved suddenly. Some rules and regulations govern the working of the FPO; it provides the right education and information sharing regarding the right and the share of the farmers and how can they concentrate on their betterment. </p>
+</div>
+<hr width="70%"
+       size="3"
+	  color="black">  
+<button class="accordion">Eligibility to create a FPo</button>
+<div class="panel">
+<p> Any FPOs already registered under the Companies Act or various central and state cooperative society laws is eligible for the FPO scheme. The FPOs should be registered and administered by farmers, and also the organisation should be focused on activities related to agriculture and allied sectors.</p></div>
+<hr width="70%"
+       size="3"
+	  color="black">  
+<button class="accordion">Eligibility to create a FPo</button>
+<div class="panel">
+<p> Any FPOs already registered under the Companies Act or various central and state cooperative society laws is eligible for the FPO scheme. The FPOs should be registered and administered by farmers, and also the organisation should be focused on activities related to agriculture and allied sectors.</p></div>
+<hr width="70%"
+       size="3"
+	  color="black"> 
+<button class="accordion">Eligibility to create a FPo</button>
+<div class="panel">
+<p> Any FPOs already registered under the Companies Act or various central and state cooperative society laws is eligible for the FPO scheme. The FPOs should be registered and administered by farmers, and also the organisation should be focused on activities related to agriculture and allied sectors.</p></div>
+ 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</div>
+ <!-- end contact -->
+<div class="footer">
+<div class="footer-text-left">
+    <a href="index.html" class="menu">home</a>
+    <a href="#" class="menu">about</a> 
+    <a href="#" class="menu">credits</a>
+  
+
+<div class="footer-content-right">
+<a href="#"><img src="images/linked_in.webp" class="icon-style" alt="limkedin icon"></a>
+<a href="#"><img src="images/whatsapp.webp" class="icon-style" alt="whatsapp icon"></a>
+  <a href="#"><img src="images/instagram.webp" class="icon-style" alt="instagram"></a>
+  <a href="#"><img src="images/github.webp" class="icon-style" alt="Github icon"></a>
+  <a href="#"><img src="images/twitter.webp" class="icon-style" alt="Twitter icon"></a>
+  <a href="#"><img src="images/email.webp" class="icon-style" alt="Emailicon"></a>
+  </div>
+</div>
+
+</body>
+</html>
